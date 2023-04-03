@@ -52,6 +52,8 @@ Ref: [Neoway G7A Product brief 📑](https://cn.neoway.com/details/product_en/10
 
 # Usage
 
+The pin mapping table for this hardware (L&E LoRa Module V1) and ESP32 with UART2 (UART_ID=2) is as follows:
+
 | L&E LoRa V1 | ESP32   |
 |-------------|---------|
 | RX          | GPIO 17 |
@@ -157,6 +159,8 @@ Use CTRL-C to stop sending
 ```
 
 ## Result of choice number 3
+You have to use both keys (DevEUI and AppKey) to register and activate your end device on the LoRa Server first before sending any data.
+* <b>Note that the DevEUI in this example is hidden for security reasons.</b>
 ```
 Please select your choice: 3
 Roger That!
